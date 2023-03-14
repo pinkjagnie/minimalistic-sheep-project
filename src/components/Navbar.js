@@ -16,9 +16,9 @@ const Navbar = () => {
         </div>
         <div className="flex items-center justify-between">
           <FiUpload size={25} className="mr-2 cursor-pointer lg:mr-6" />
-          <p className='hidden lg:visible lg:block lg:mr-4 lg:font-bold lg:border-2 lg:px-4 lg:py-2 lg:rounded'>Register</p>
+          <p className={`hidden lg:visible lg:block lg:mr-4 lg:font-bold lg:border-2 lg:px-4 lg:py-2 lg:rounded cursor-pointer ${styles.hoverBasicBackgroundColor} ${styles.hoverBasicTextColor}`}>Register</p>
           <FiUserPlus size={25} className="mr-2 cursor-pointer lg:hidden" />
-          <p className='hidden lg:visible lg:block lg:mr-4 lg:font-bold lg:border-2 lg:px-4 lg:py-2 lg:rounded'>Login</p>
+          <p className={`hidden lg:visible lg:block lg:mr-4 lg:font-bold lg:border-2 lg:px-4 lg:py-2 lg:rounded cursor-pointer ${styles.hoverBasicBackgroundColor} ${styles.hoverBasicTextColor}`}>Login</p>
           <BiLogInCircle size={25} className="mr-2 cursor-pointer lg:hidden" />
         </div>
       </div>
